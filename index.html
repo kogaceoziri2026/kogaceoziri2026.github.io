@@ -1389,7 +1389,7 @@ document.querySelectorAll("img.ph-hu").forEach(i => { i.src = PHOTO; });
 // Fotoğraf gelince p: "..." ve özgeçmiş gelince b: "..." alanlarını doldur.
 
 const team = [
-  { n:"Hüseyin Öziri", r:"Başkan adayı", o:"Flaş Kocaeli Gazetesi", p:PHOTO, b:"17 yıldır gazetecilik yapıyor, 6 yıldır KOGACE yöneticisi olarak görev yapıyor. Flaş Kocaeli Gazetesi’nin imtiyaz sahibi.\n\nEĞİTİM\nKamu yönetimi, LİSANS\nTurizm otelcilik LİSANS\nMedya ve İletişim LİSANS" },
+  { n:"Hüseyin Öziri", r:"Başkan adayı", o:"Flaş Kocaeli Gazetesi", p:PHOTO, b:"17 yıldır gazetecilik yapıyor, 6 yıldır KOGACE yöneticisi olarak görev yapıyor. Flaş Kocaeli Gazetesi’nin imtiyaz sahibi." },
   ...Array(14).fill(0)   // diğer adaylar: kilitli yer tutucu (kişisel veri yok)
 ];
 const ini = n => n.split(" ").map(w => w[0]).join("").slice(0, 2);
